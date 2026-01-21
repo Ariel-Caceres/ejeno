@@ -15,7 +15,15 @@
         <div id="carrito-btn">🛒 Carrito (<span id="cantidad">0</span>)</div>
     </header>
 
-    <main>
+    <main class="main">
+        <div class="filtros">
+            <button data-rubro="todos" class="activo">Todos</button>
+            <button data-rubro="herramientas">Herramientas</button>
+            <button data-rubro="iluminacion">Iluminación</button>
+            <button data-rubro="hogar-deco">Hogar</button>
+            <button data-rubro="bici-y-moto">Bici y Moto</button>
+        </div>
+
         <section id="productos" class="grid"></section>
 
         <section id="carrito">

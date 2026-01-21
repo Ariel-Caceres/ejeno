@@ -1,166 +1,184 @@
-
-const contenedor = document.getElementById("productos");
-const carritoDiv = document.getElementById("carrito");
-const itemsDiv = document.getElementById("items");
-const totalSpan = document.getElementById("total");
-const cantidadSpan = document.getElementById("cantidad");
-
-let carrito = [];
 const productos = [
     {
         id: 1,
         nombre: "Candado dorado 50mm",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/candado-dorado-50mm.jpeg"
     },
     {
         id: 2,
         nombre: "Cepillo de acero rojo",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/cepillo-de-acero-rojo.jpeg"
     },
     {
         id: 3,
         nombre: "Cuchara albañil 8\"",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/cichara-albañol-8``.jpeg"
     },
     {
         id: 4,
         nombre: "Cinta 5mt Giantop",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/cinta-5mt-giantop.jpeg"
     },
     {
         id: 5,
         nombre: "Cinta 10mt Giantop",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/cinta-10m-giantop.jpeg"
     },
     {
         id: 6,
         nombre: "Destornillador 7pcs bolsa",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/dest-x7pc-bolsa .jpeg"
     },
     {
         id: 7,
         nombre: "Destornillador 6pcs taxi blister",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/destor-6pc-taxi-blister.jpeg"
     },
     {
         id: 8,
         nombre: "Destornillador 21pcs",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/destor-21pc.jpeg"
     },
     {
         id: 9,
         nombre: "Destornillador celular",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/destor-celu.jpeg"
     },
     {
         id: 10,
         nombre: "Disco 115mm mayusta",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-115mm-mayusta.jpeg"
     },
     {
         id: 11,
         nombre: "Disco 180mm 24T madera",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-180mm-24ft-madera.jpeg"
     },
     {
         id: 12,
         nombre: "Disco 180mm 40T madera",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-180mm-40dt-madera.jpeg"
     },
     {
         id: 13,
         nombre: "Disco 180mm corte",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-180mm-corte.jpeg"
     },
     {
         id: 14,
         nombre: "Disco 180mm lija",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-180mm-lases.jpeg"
     },
     {
         id: 15,
         nombre: "Disco 180mm turbo",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-180mm-turbo.jpeg"
     },
     {
         id: 16,
         nombre: "Disco madera 24T 115mm",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-amdera-24-115mm.jpeg"
     },
     {
         id: 17,
         nombre: "Disco corte 4.5\" bisso",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-cirte-4.5-bisso.jpeg"
     },
     {
         id: 18,
         nombre: "Disco corte 115mm",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-corte-115mm.jpeg"
     },
     {
         id: 19,
         nombre: "Disco flap 100",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-flap-100.jpeg"
     },
     {
         id: 20,
         nombre: "Disco flap 120",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-flap-120.jpeg"
     },
     {
         id: 21,
         nombre: "Disco flap A-40",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-flap-a-40.jpeg"
     },
     {
         id: 22,
         nombre: "Disco láser 115mm",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-lases-115mm.jpeg"
     },
     {
         id: 23,
         nombre: "Disco madera 30T bisso",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-madera-30t-bisso.jpeg"
     },
     {
         id: 24,
         nombre: "Disco madera 40DT 115mm",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/DISCO-MADERA-40DT-115MM.jpeg"
     },
     {
         id: 25,
         nombre: "Disco turbo 4.5\" bisso",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/DISCO-TURBO-4.5-BISSO.jpeg"
     },
     {
         id: 26,
         nombre: "Disco turbo 115mm",
         precio: 0,
+        rubro: "herramientas",
         img: "imgs/herramientas/disco-turbo-115mm.jpeg"
     },
     {
@@ -295,33 +313,224 @@ const productos = [
         precio: 0,
         rubro: "herramientas",
         img: "imgs/herramientas/martillo-de-fibra-80oz.jpeg"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+
+        id: 47,
+        nombre: "Anafe Electrico",
+        precio: 0,
+        rubro: "cocina",
+        img: "imgs/cocina/anafe-electrico.jpeg"
+    },
+    {
+        id: 48,
+        nombre: "Soporte de tv 15 22 zo11 om",
+        precio: 0,
+        rubro: "hogar-deco",
+        img: "imgs/hogar-deco/soporte-de-tv-15-33-zo11-om.jpeg"
+    },
+    {
+        id: 49,
+        nombre: "Soporte de tv 26 55 p7 om",
+        precio: 0,
+        rubro: "hogar-deco",
+        img: "imgs/hogar-deco/soporte-de-tv-26-55-p7-om.jpeg"
+    },
+    {
+        id: 50,
+        nombre: "Timbre con enchufe",
+        precio: 0,
+        rubro: "hogar-deco",
+        img: "imgs/hogar-deco/timbre-con-enchufe.jpeg"
+    },
+    {
+        id: 50,
+        nombre: "Timbre pila y pila",
+        precio: 0,
+        rubro: "hogar-deco",
+        img: "imgs/hogar-deco/timbre-pila-y-pila.jpeg"
+    },
+    {
+        id: 51,
+        nombre: "Linterna recargable caja verde",
+        precio: 0,
+        rubro: "iluminacion",
+        img: "imgs/iluminacion/linterna-recargable-caja-verde.jpeg"
+    },
+    {
+        id: 52,
+        nombre: "Luz de 60 led con usb",
+        precio: 0,
+        rubro: "iluminacion",
+        img: "imgs/iluminacion/luz-de-60led-om-660-con.usb.jpeg"
+    },
+    {
+        id: 53,
+        nombre: "Panel 12w calido cuadrado redondo",
+        precio: 0,
+        rubro: "iluminacion",
+        img: "imgs/iluminacion/panel-12wts-calido-cuadrado-redondo.jpeg"
+    },
+    {
+        id: 54,
+        nombre: "Reflector 10w nivhus",
+        precio: 0,
+        rubro: "iluminacion",
+        img: "imgs/iluminacion/reflector-10w-nivhus.jpeg"
+    },
+    {
+        id: 55,
+        nombre: "Reflector 30w nivhus",
+        precio: 0,
+        rubro: "iluminacion",
+        img: "imgs/iluminacion/reflector-30w-nivhus.jpeg"
+    },
+    {
+        id: 56,
+        nombre: "Ducha de mano rory",
+        precio: 0,
+        rubro: "griferia",
+        img: "imgs/griferia/ducha-de-mano-rory.jpeg"
+    },
+    {
+        id: 57,
+        nombre: "Griferia f319",
+        precio: 0,
+        rubro: "griferia",
+        img: "imgs/griferia/griferia-f319.jpeg"
+    },
+    {
+        id: 58,
+        nombre: "Griferia ss 3009",
+        precio: 0,
+        rubro: "griferia",
+        img: "imgs/griferia/griferia-ss-3009.jpeg"
+    },
+    {
+        id: 59,
+        nombre: "Pico j acero inoxidable 900298",
+        precio: 0,
+        rubro: "griferia",
+        img: "imgs/griferia/pico-j-acero-inoxidable-900298.jpeg"
+    },
+
+    {
+        id: 60,
+        nombre: "Chaleco verde y naranja",
+        precio: 0,
+        rubro: "bici-y-moto",
+        img: "imgs/bici-y-moto/chaleco-verde-y-naranja.jpeg"
+    },
+    {
+        id: 61,
+        nombre: "Parche kit x600",
+        precio: 0,
+        rubro: "bici-y-moto",
+        img: "imgs/bici-y-moto/parche-kit-x600.jpeg"
+    },
+    {
+        id: 62,
+        nombre: "Parche numero 2",
+        precio: 0,
+        rubro: "bici-y-moto",
+        img: "imgs/bici-y-moto/parche-numero-2.jpeg"
+    },
+    {
+        id: 63,
+        nombre: "Parche numero 3",
+        precio: 0,
+        rubro: "bici-y-moto",
+        img: "imgs/bici-y-moto/parche-numero-3.jpeg"
+    },
+    {
+        id: 64,
+        nombre: "Parche numero 4",
+        precio: 0,
+        rubro: "bici-y-moto",
+        img: "imgs/bici-y-moto/parche-numero-4.jpeg"
+    },
+    {
+        id: 65,
+        nombre: "Parche solucion caja",
+        precio: 0,
+        rubro: "bici-y-moto",
+        img: "imgs/bici-y-moto/parche-solucion-caja.jpeg"
     }
+
 ];
 
 
+const contenedor = document.getElementById("productos");
+const carritoDiv = document.getElementById("carrito");
+const itemsDiv = document.getElementById("items");
+const totalSpan = document.getElementById("total");
+const cantidadSpan = document.getElementById("cantidad");
+
+let carrito = [];
 
 
-function renderProductos() {
+
+function renderProductos(lista) {
     contenedor.innerHTML = "";
 
-    productos.forEach(p => {
+    lista.forEach(p => {
         const card = document.createElement("div");
         card.className = "card";
 
         card.innerHTML = `
-  <div class="img-box">
-    <img src="${p.img}" alt="${p.nombre}">
-  </div>
+          <div class="img-box">
+            <img src="${p.img}" alt="${p.nombre}">
+          </div>
 
-  <p class="codigo">Código: ${p.id}</p>
-  <h3>${p.nombre}</h3>
-  <p>Precio: $${p.precio}</p>
-  <button onclick="agregar(${p.id})">Agregar</button>
-`;
+          <p class="codigo">Código: ${p.id}</p>
+          <h3>${p.nombre}</h3>
+          <p>Rubro: ${p.rubro}</p>
+          <p>Precio: $${p.precio}</p>
+          <button onclick="agregar(${p.id})">Agregar</button>
+        `;
 
         contenedor.appendChild(card);
     });
 }
+
+
+const botones = document.querySelectorAll(".filtros button");
+
+// render inicial
+renderProductos(productos);
+
+botones.forEach(btn => {
+    btn.addEventListener("click", () => {
+        // estado visual
+        botones.forEach(b => b.classList.remove("activo"));
+        btn.classList.add("activo");
+
+        const rubro = btn.dataset.rubro;
+
+        if (rubro === "todos") {
+            renderProductos(productos);
+        } else {
+            const filtrados = productos.filter(
+                p => p.rubro === rubro
+            );
+            renderProductos(filtrados);
+        }
+    });
+});
+
 
 
 
@@ -364,4 +573,3 @@ document.getElementById("vaciar").onclick = () => {
     actualizarCarrito();
 };
 
-renderProductos();

@@ -47,7 +47,9 @@ header {
     width: 100%;
 }
 
-.carrito {
+#carrito {
+    padding-left: 20px;
+    align-items: center;
     background: white;
     padding: 1rem;
     margin: 1rem;
@@ -94,6 +96,31 @@ header {
 
 .img-box {
     background: #fff;
+}
+
+.filtros {
+    justify-content: center;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+
+.filtros button {
+    border: 1px solid #ddd;
+    background: white;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.filtros button.activo {
+    background: #011627;
+    color: white;
+    border-color: #011627;
 }
 
 
