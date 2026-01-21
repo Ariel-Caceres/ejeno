@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo de Precios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🛍️ Catálogo</h1>
+        <div id="carrito-btn">🛒 Carrito (<span id="cantidad">0</span>)</div>
+    </header>
+
+    <main>
+        <section id="productos" class="grid"></section>
+
+        <section id="carrito">
+            <h2>Carrito</h2>
+            <div id="items"></div>
+            <h3>Total: $<span id="total">0</span></h3>
+            <button id="vaciar">Vaciar carrito</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
