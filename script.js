@@ -64,7 +64,7 @@ const productos = [
     },
     {
         id: 10,
-        nombre: "Disco 115mm mayusta",
+        nombre: "Disco 115mm mayusa",
         precio: 0,
         rubro: "herramientas",
         img: "imgs/herramientas/disco-115-mma-masuya.jpeg"
@@ -548,7 +548,7 @@ const productos = [
         precio: 0,
         nombre: "Kit parche TR07",
         rubro: "bici-y-moto",
-        img: "imgs/iluminacion/luz-30led-7002.jpeg"
+        img: "imgs/bici-y-moto/kit-parche-tr07.jpeg"
     },
     {
         id: 80,
@@ -774,9 +774,572 @@ const productos = [
         nombre: "Destornillador 6pcs",
         rubro: "herramientas",
         img: "imgs/herramientas/destorx-6pc.jpeg"
-    }
+    },
 
+    {
+        id: 108,
+        precio: 0,
 
+        nombre: "Cuchara albañil 7``",
+        rubro: "herramientas",
+        img: "imgs/herramientas/cuchara-añbañil-7``.jpeg"
+    },
+    {
+        id: 109,
+        precio: 0,
+
+        nombre: "Destornillador para celular 32 in 1",
+        rubro: "herramientas",
+        img: "imgs/herramientas/dest-para-celular-31-1.jpeg"
+    },
+    {
+        id: 110,
+        precio: 0,
+
+        nombre: "Destornillador celu x31pcs",
+        rubro: "herramientas",
+        img: "imgs/herramientas/destor-celu-x31.jpeg"
+    },
+    {
+        id: 111,
+        precio: 0,
+
+        nombre: "Destornillador golpe naranja",
+        rubro: "herramientas",
+        img: "imgs/herramientas/destor-golpe-naranja-x6.jpeg"
+    },
+    {
+        id: 112,
+        precio: 0,
+
+        nombre: "Destornillador x 6pc",
+        rubro: "herramientas",
+        img: "imgs/herramientas/destorx-6pc.jpeg"
+    },
+    {
+        id: 113,
+        precio: 0,
+
+        nombre: "Disco corte 4.5 Bisso",
+        rubro: "herramientas",
+        img: "imgs/herramientas/disco-corte-4.5.jpeg"
+    },
+
+    {
+        id: 113,
+        precio: 0,
+
+        nombre: "Disco madera 24 115mm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/disco-madera-24-115mm.jpeg"
+    },
+    {
+        id: 114,
+        precio: 0,
+
+        nombre: "Disco turbo  115mm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/disco-turbo-115.jpeg"
+    },
+    {
+        id: 115,
+        precio: 0,
+
+        nombre: "Juego gubias 115mm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/juego-de-gubias.jpeg"
+    },
+    {
+        id: 116,
+        precio: 0,
+
+        nombre: "Juego pinzas x3 8``",
+        rubro: "herramientas",
+        img: "imgs/herramientas/juego-pinzas-x3-8``.jpeg"
+    },
+    {
+        id: 117,
+        precio: 0,
+
+        nombre: "Llave combinada 8pcs",
+        rubro: "herramientas",
+        img: "imgs/herramientas/llave-combinada-x8pcs.jpeg"
+    },
+    {
+        id: 118,
+        precio: 0,
+
+        nombre: "Llave combinada YOFE 14Pcs ",
+        rubro: "herramientas",
+        img: "imgs/herramientas/llave-combinada-yof14pc-5-24-axul.jpeg"
+    },
+
+    {
+        id: 119,
+        precio: 0,
+
+        nombre: "Llave con criquet 7pcs",
+        rubro: "herramientas",
+        img: "imgs/herramientas/llave-con-crique-7pc.jpeg"
+    },
+    {
+        id: 120,
+        precio: 0,
+
+        nombre: "Llave con criquet 7pcs BISSO",
+        rubro: "herramientas",
+        img: "imgs/herramientas/llave-con-crique-7pc-bisso.jpeg"
+    },
+    {
+        id: 121,
+        precio: 0,
+
+        nombre: "Llave francesa 12`` BISSO",
+        rubro: "herramientas",
+        img: "imgs/herramientas/llave-francesa-12`-bisso.jpeg"
+    },
+    {
+        id: 122,
+        precio: 0,
+
+        nombre: "Llave francesa 6`` BISSO",
+        rubro: "herramientas",
+        img: "imgs/herramientas/llave-francesa-6``-negro.jpeg"
+    },
+    {
+        id: 123,
+        precio: 0,
+
+        nombre: "Llave francesa 8`` BISSO",
+        rubro: "herramientas",
+        img: "imgs/herramientas/llave-francesa-8``-negro-bisso.jpeg"
+    },
+    {
+        id: 124,
+        precio: 0,
+
+        nombre: "Nivel con iman 50cm plateado",
+        rubro: "herramientas",
+        img: "imgs/herramientas/nivel-con-iman-50cm-plateado.jpeg"
+    },
+    {
+        id: 125,
+        precio: 0,
+
+        nombre: "Pinza alicate 6`` AWEISI",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pinza-alicate-6``-aweise.jpeg"
+    },
+    {
+        id: 126,
+        precio: 0,
+
+        nombre: "Pinza alicate 6``",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pinza-alicate-6``.jpeg"
+    },
+    {
+        id: 127,
+        precio: 0,
+
+        nombre: "Nivel con iman 60cm plateado",
+        rubro: "herramientas",
+        img: "imgs/herramientas/nivel-con.iman-60cm-plateado.jpeg"
+    },
+
+    {
+        id: 129,
+        precio: 0,
+
+        nombre: "Pela cable BISSO",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pela-cable-bisso.jpeg"
+    },
+    {
+        id: 130,
+        precio: 0,
+
+        nombre: "PICO LORO BISSO",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pico-loro-bisso.jpeg"
+    },
+    {
+        id: 131,
+        precio: 0,
+
+        nombre: "Pinza alicate AWEISI 6``",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pinza-alicate-6``-aweise.jpeg"
+    },
+    {
+        id: 132,
+        precio: 0,
+
+        nombre: "Pinza alicate  6``",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pinza-alicate-6``.jpeg"
+    },
+    {
+        id: 133,
+        precio: 0,
+
+        nombre: "Pinza fuerza  BISSO",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pinza-fuerza-bisso.jpeg"
+    },
+    {
+        id: 134,
+        precio: 0,
+
+        nombre: "Pinza fuerza C COLK",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pinza-fuerza-c-colk611.jpeg"
+    },
+    {
+        id: 135,
+        precio: 0,
+
+        nombre: "Pinza mini x3pc 4.5``",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pinza-mini-x3pc-4.5``.jpeg"
+    },
+    {
+        id: 136,
+        precio: 0,
+
+        nombre: "Pinza mini x5pc 4.5``",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pinza-mini-x5pc.jpeg"
+    },
+    {
+        id: 137,
+        precio: 0,
+
+        nombre: "Pinza porta electrodo",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pinza-porta-electrodo-500am.jpeg"
+    },
+    {
+        id: 138,
+        precio: 0,
+
+        nombre: "Pinza punta AWEISI",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pinza-punta-6``-aweisi.jpeg"
+    },
+    {
+        id: 139,
+        precio: 0,
+
+        nombre: "Pistola de pintar",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pistola-de-pintar.jpeg"
+    },
+    {
+        id: 140,
+        precio: 0,
+
+        nombre: "Precinto 25cm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/precinto-25cm.jpeg"
+    },
+    {
+        id: 141,
+        precio: 0,
+
+        nombre: "Precinto 30cm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/precinto-30cm.jpeg"
+    },
+    {
+        id: 142,
+        precio: 0,
+
+        nombre: "Precinto 40cm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/precinto-40cm.jpeg"
+    },
+    {
+        id: 143,
+        precio: 0,
+
+        nombre: "Pulidor electrico",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pulidor-electrico.jpeg"
+    },
+    {
+        id: 144,
+        precio: 0,
+
+        nombre: "Puntas para taladro x10pc",
+        rubro: "herramientas",
+        img: "imgs/herramientas/puntas-p-taladro-x10pc.jpeg"
+    },
+    {
+        id: 145,
+        precio: 0,
+
+        nombre: "Rotopercutor",
+        rubro: "herramientas",
+        img: "imgs/herramientas/rotoprercutor-bisso-800w.jpeg"
+    },
+    {
+        id: 146,
+        precio: 0,
+
+        nombre: "Serrucho de madera 18``",
+        rubro: "herramientas",
+        img: "imgs/herramientas/serrucho-de-madera-198`.jpeg"
+    },
+    {
+        id: 147,
+        precio: 0,
+
+        nombre: "Soldador mango madera 40w",
+        rubro: "herramientas",
+        img: "imgs/herramientas/soldador-mango-madera40w.jpeg"
+    },
+    {
+        id: 148,
+        precio: 0,
+
+        nombre: "Soldador mango plastico 42w",
+        rubro: "herramientas",
+        img: "imgs/herramientas/soldador-mango-plastic-42w.jpeg"
+    },
+    {
+        id: 149,
+        precio: 0,
+
+        nombre: "Taladro 21v 13mm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/taladro-21v-13mm.jpeg"
+    },
+    {
+        id: 150,
+        precio: 0,
+
+        nombre: "Taladro electrico BISSO 18V 10MM",
+        rubro: "herramientas",
+        img: "imgs/herramientas/taladro-elec-bisso-18v-10mm.jpeg"
+    },
+    {
+        id: 151,
+        precio: 0,
+
+        nombre: "Taladro electrico BISSO 18V BLA00101",
+        rubro: "herramientas",
+        img: "imgs/herramientas/taladro-elec-bisso-18v-bla00101.jpeg"
+    },
+    {
+        id: 152,
+        precio: 0,
+
+        nombre: "Taladro electrico BISSO 21V 10MM",
+        rubro: "herramientas",
+        img: "imgs/herramientas/taladro-elec-bisso-21v-10mm.jpeg"
+    },
+    {
+        id: 153,
+        precio: 0,
+
+        nombre: "Taladro electrico BISSO 21V BLA01101",
+        rubro: "herramientas",
+        img: "imgs/herramientas/taladro-elec-bisso-21v.jpeg"
+    },
+    {
+        id: 154,
+        precio: 0,
+
+        nombre: "Taladro electrico BISSO 3.6V ",
+        rubro: "herramientas",
+        img: "imgs/herramientas/taladro-elec-bisso-3.6v.jpeg"
+    },
+    {
+        id: 155,
+        precio: 0,
+
+        nombre: "Taladro impacto novatix ",
+        rubro: "herramientas",
+        img: "imgs/herramientas/taladro-impacto-novatix.jpeg"
+    },
+    {
+        id: 156,
+        precio: 0,
+
+        nombre: "Taladro MAXIROQ con dos baterias ",
+        rubro: "herramientas",
+        img: "imgs/herramientas/taladro-maxiroq-con-2-bateria.jpeg"
+    },
+    {
+        id: 157,
+        precio: 0,
+
+        nombre: "Taladro percutor RT05",
+        rubro: "herramientas",
+        img: "imgs/herramientas/taladro-percutor-tr05.jpeg"
+    },
+    {
+        id: 158,
+        precio: 0,
+
+        nombre: "Taladro percutor ",
+        rubro: "herramientas",
+        img: "imgs/herramientas/taladro-percutor.jpeg"
+    },
+    {
+        id: 159,
+        precio: 0,
+
+        nombre: "Taladro y amoladora electrico ",
+        rubro: "herramientas",
+        img: "imgs/herramientas/taladro-y-amoladora-electrico.jpeg"
+    },
+    {
+        id: 160,
+        precio: 0,
+
+        nombre: "Tubo 108pc BISSO",
+        rubro: "herramientas",
+        img: "imgs/herramientas/tubo-108pc-bisso.jpeg"
+    },
+    {
+        id: 161,
+        precio: 0,
+
+        nombre: "Tubo 108pc TOP HELPER",
+        rubro: "herramientas",
+        img: "imgs/herramientas/tubo-108pc-top-helper.jpeg"
+    },
+    {
+        id: 162,
+        precio: 0,
+
+        nombre: "Tubo 121PC",
+        rubro: "herramientas",
+        img: "imgs/herramientas/tubo-121pc.jpeg"
+    },
+    {
+        id: 163,
+        precio: 0,
+
+        nombre: "Tubo 21PC caja metal",
+        rubro: "herramientas",
+        img: "imgs/herramientas/tubo-21-pc-caja-metal.jpeg"
+    },
+    {
+        id: 164,
+        precio: 0,
+
+        nombre: "Tubo caja 94pcs",
+        rubro: "herramientas",
+        img: "imgs/herramientas/tubo-caja-94pcs.jpeg"
+    },
+
+    {
+        id: 166,
+        precio: 0,
+
+        nombre: "Tubo x 53pcs",
+        rubro: "herramientas",
+        img: "imgs/herramientas/tubox53pcs.jpeg"
+    },
+    {
+        id: 167,
+        precio: 0,
+
+        nombre: "Tubo x 53pcs",
+        rubro: "herramientas",
+        img: "imgs/herramientas/tubox53pcs.jpeg"
+    },
+    {
+        id: 168,
+        precio: 0,
+
+        nombre: "Llave T 06mm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/llave-t-06mm.jpeg"
+    },
+    {
+        id: 169,
+        precio: 0,
+
+        nombre: "Llave T 11mm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/llave-t-11mm.jpeg"
+    },
+    {
+        id: 170,
+        precio: 0,
+
+        nombre: "Llave T 12mm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/llave-t-12mm.jpeg"
+    },
+    {
+        id: 171,
+        precio: 0,
+
+        nombre: "Llave T 13mm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/llave-t-12mm.jpeg"
+    },
+    {
+        id: 172,
+        precio: 0,
+
+        nombre: "Llave T 14mm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/llave-t-14mm.jpeg"
+    },
+    {
+        id: 173,
+        precio: 0,
+
+        nombre: "Nivel aluminio 30cm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/nivel-alimi-30cm.jpeg"
+    },
+    {
+        id: 174,
+        precio: 0,
+
+        nombre: "Nivel aluminio 40cm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/nivel-alimi-40cm.jpeg"
+    },
+    {
+        id: 175,
+        precio: 0,
+
+        nombre: "Nivel aluminio 50cm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/nivel-alimi-50cm.jpeg"
+    },
+    {
+        id: 176,
+        precio: 0,
+
+        nombre: "Nivel aluminio 60cm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/nivel-alimi-60cm.jpeg"
+    },
+    {
+        id: 177,
+        precio: 0,
+
+        nombre: "Nivel aluminio 100cm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/nivel-alimi-100cm.jpeg"
+    },
+    {
+        id: 178,
+        precio: 0,
+
+        nombre: "Nivel aluminio 100cm",
+        rubro: "herramientas",
+        img: "imgs/herramientas/llave-francesa-8``-negro.jpeg   "
+    },
 ];
 
 
@@ -788,7 +1351,18 @@ const cantidadSpan = document.getElementById("cantidad");
 
 let carrito = [];
 
+const calnum = (productos) => {
+    numero = 0
+    productos.forEach(p => {
+        if (p.rubro == "herramientas") {
+            numero += 1
+        }
 
+    }
+    )
+    console.log(numero);
+}
+calnum(productos)
 
 function renderProductos(lista) {
     contenedor.innerHTML = "";
