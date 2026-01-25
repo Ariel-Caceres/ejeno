@@ -297,22 +297,22 @@ main {
     font-size: 20px;
 }
 
-@keyframes nudge {
+@keyframes floatPhone {
     0% {
         transform: translateY(0);
     }
 
-    30% {
-        transform: translateY(-2px);
+    50% {
+        transform: translateY(-4px);
     }
 
-    60% {
+    100% {
         transform: translateY(0);
     }
 }
 
 .phone-icon {
-    animation: nudge 2.5s infinite;
+    animation: floatPhone 2.5s infinite;
 }
 
 
@@ -349,6 +349,11 @@ main {
     header .logo-contacto .logo {
         text-align: center;
         width: 100%;
+    }
+
+    header .logo-contacto .contacto {
+        text-align: center;
+        margin-left: 10px;
     }
 
     main {
