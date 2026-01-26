@@ -206,10 +206,14 @@ input.addEventListener("input", (e) => {
 
 
 window.volver = () => {
+    textoBusqueda = "";
+
+    // reset UI
     input.value = "";
-    renderProductos(productos);
-    botones.forEach(b => b.classList.remove("activo"))
+
+    aplicarFiltros();
 };
+
 
 
 const toggleSubir = () => {
@@ -223,3 +227,4 @@ window.addEventListener("scroll", toggleSubir)
 window.addEventListener("load", toggleSubir)
 
 aplicarFiltros();
+
