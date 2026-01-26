@@ -3,6 +3,8 @@ export const productos = [
         id: 1,
         nombre: "Candado dorado 50mm",
         precio: 1800,
+        esta: "si",
+
         rubro: "herramientas",
         img: "imgs/herramientas/candado-dorado-50mm.jpeg"
     },
@@ -10,18 +12,24 @@ export const productos = [
         id: 2,
         nombre: "Cepillo de acero rojo",
         precio: 1000,
+        esta: "si",
+
         rubro: "herramientas",
         img: "imgs/herramientas/cepillo-de-acero-rojo.jpeg"
     },
     {
         id: 3,
         nombre: "Cuchara albañil 8\"",
+        esta: "si",
+
         precio: 3200,
         rubro: "herramientas",
         img: "imgs/herramientas/cichara-albañol-8``.jpeg"
     },
     {
         id: 4,
+        esta: "si",
+
         nombre: "Cinta 5mt Giantop",
         precio: 1400,
         rubro: "herramientas",
@@ -32,6 +40,8 @@ export const productos = [
         nombre: "Cinta 10mt Giantop",
         precio: 4200,
         rubro: "herramientas",
+        esta: "si",
+
         img: "imgs/herramientas/cinta-10m-giantop.jpeg"
     },
     {
@@ -50,6 +60,8 @@ export const productos = [
     },
     {
         id: 8,
+        esta: "si",
+
         nombre: "Destornillador 21pcs",
         precio: 12000,
         rubro: "herramientas",
@@ -59,6 +71,8 @@ export const productos = [
         id: 9,
         nombre: "Destornillador celular",
         precio: 2350,
+        esta: "si",
+
         rubro: "herramientas",
         img: "imgs/herramientas/destor-celu.jpeg"
     },
@@ -67,10 +81,14 @@ export const productos = [
         nombre: "Disco 115mm mayusa",
         precio: 700,
         rubro: "herramientas",
+        esta: "si",
+
         img: "imgs/herramientas/disco-115-mma-masuya.jpeg"
     },
     {
         id: 11,
+        esta: "si",
+
         nombre: "Disco 180mm 24T madera",
         precio: 4500,
         rubro: "herramientas",
@@ -78,14 +96,18 @@ export const productos = [
     },
     {
         id: 12,
-        nombre: "Disco 180mm 40T madera",
+        nombre: "Disco 180mm 40DT madera",
         precio: 5300,
+        esta: "si",
+
         rubro: "herramientas",
         img: "imgs/herramientas/disco-180mm-40dt-madera.jpeg"
     },
     {
         id: 13,
         nombre: "Disco 180mm corte",
+        esta: "si",
+
         precio: 5000,
         rubro: "herramientas",
         img: "imgs/herramientas/disco-180mm-corte.jpeg"
@@ -95,10 +117,14 @@ export const productos = [
         nombre: "Disco 180mm lija",
         precio: 0,
         rubro: "herramientas",
+        esta: "si",
+
         img: "imgs/herramientas/disco-180mm-lases.jpeg"
     },
     {
         id: 15,
+        esta: "si",
+
         nombre: "Disco 180mm turbo",
         precio: 5000,
         rubro: "herramientas",
@@ -120,6 +146,8 @@ export const productos = [
     },
     {
         id: 18,
+        esta: "si",
+
         nombre: "Disco corte 115mm",
         precio: 1800,
         rubro: "herramientas",
@@ -129,6 +157,7 @@ export const productos = [
         id: 19,
         nombre: "Disco flap 100",
         precio: 900,
+        esta: "si",
         rubro: "herramientas",
         img: "imgs/herramientas/disco-flap-100.jpeg"
     },
@@ -136,6 +165,8 @@ export const productos = [
         id: 20,
         nombre: "Disco flap 120",
         precio: 900,
+        esta: "si",
+
         rubro: "herramientas",
         img: "imgs/herramientas/disco-flap-120.jpeg"
     },
@@ -144,10 +175,14 @@ export const productos = [
         nombre: "Disco flap A-40",
         precio: 900,
         rubro: "herramientas",
+        esta: "si",
+
         img: "imgs/herramientas/disco-flap-a-40.jpeg"
     },
     {
         id: 22,
+        esta: "si",
+
         nombre: "Disco láser 115mm",
         precio: 1800,
         rubro: "herramientas",
@@ -157,6 +192,8 @@ export const productos = [
         id: 23,
         nombre: "Disco madera 30T bisso",
         precio: 3200,
+        esta: "si",
+
         rubro: "herramientas",
         img: "imgs/herramientas/disco-madera-30t-bisso.jpeg"
     },
@@ -171,12 +208,16 @@ export const productos = [
         id: 25,
         nombre: "Disco turbo 4.5\" bisso",
         precio: 2200,
+        esta: "si",
+
         rubro: "herramientas",
         img: "imgs/herramientas/DISCO-TURBO-4.5-BISSO.jpeg"
     },
     {
         id: 26,
         nombre: "Disco turbo 115mm",
+        esta: "si",
+
         precio: 1800,
         rubro: "herramientas",
         img: "imgs/herramientas/disco-turbo-115.jpeg"
@@ -192,11 +233,15 @@ export const productos = [
         id: 29,
         nombre: "Espátula 3\" BS45",
         precio: 1700,
+        esta: "si",
+
         rubro: "herramientas",
         img: "imgs/herramientas/espatula-3``-bs45.jpeg"
     },
     {
         id: 30,
+        esta: "si",
+
         nombre: "Espátula 4\" BS46",
         precio: 1800,
         rubro: "herramientas",
@@ -206,6 +251,8 @@ export const productos = [
         id: 31,
         nombre: "Espátula 6\" BS48",
         precio: 2400,
+        esta: "si",
+
         rubro: "herramientas",
         img: "imgs/herramientas/espatula-6``-bs48.jpeg"
     },
@@ -214,6 +261,8 @@ export const productos = [
         nombre: "Formón x4pcs bolsa",
         precio: 6500,
         rubro: "herramientas",
+        esta: "si",
+
         img: "imgs/herramientas/formon-x4pc-bolsa.900183.jpeg"
     },
     {
@@ -221,11 +270,15 @@ export const productos = [
         nombre: "Hidrolavadora",
         precio: 43500,
         rubro: "herramientas",
+        esta: "si",
+
         img: "imgs/herramientas/hidrolabadora.jpeg"
     },
     {
         id: 34,
-        nombre: "Inflador compresor auto azul",
+        esta: "si",
+
+        nombre: "Inflador compresor caja azul",
         precio: 13500,
         rubro: "herramientas",
         img: "imgs/herramientas/inflador-compresor-caja-azul-1521.jpeg"
@@ -235,6 +288,8 @@ export const productos = [
         nombre: "Juego destector de billetes",
         precio: 3000,
         rubro: "herramientas",
+        esta: "si",
+
         img: "imgs/herramientas/lapiz-detector-de-billete.jpeg"
     },
     {
@@ -249,12 +304,16 @@ export const productos = [
         nombre: "Llave 3 bocas SA220",
         precio: 1700,
         rubro: "herramientas",
+        esta: "si",
+
         img: "imgs/herramientas/llave-3-boca-y-saa220.jpeg"
     },
     {
         id: 38,
         nombre: "Llave Allen grande BS109",
         precio: 4900,
+
+        esta: "si",
         rubro: "herramientas",
         img: "imgs/herramientas/llave-alen-grande-bs109.jpeg"
     },
@@ -262,12 +321,15 @@ export const productos = [
         id: 39,
         nombre: "Llave Allen mediana BS110",
         precio: 4200,
+        esta: "si",
+
         rubro: "herramientas",
         img: "imgs/herramientas/llave-alen-mediana-bs110.jpeg"
     },
     {
         id: 40,
         nombre: "Llave Allen chica BS111",
+        esta: "si",
         precio: 3600,
         rubro: "herramientas",
         img: "imgs/herramientas/llave-allen-chica-bs111.jpeg"
@@ -289,6 +351,8 @@ export const productos = [
     },
     {
         id: 44,
+        esta: "si",
+
         nombre: "Llave de impacto SD7001",
         precio: 100000,
         rubro: "herramientas",
@@ -296,6 +360,8 @@ export const productos = [
     },
     {
         id: 45,
+        esta: "si",
+
         nombre: "Martillo 500gr Bisso",
         precio: 7200,
         rubro: "herramientas",
@@ -303,6 +369,8 @@ export const productos = [
     },
     {
         id: 46,
+        esta: "si",
+
         nombre: "Martillo de fibra 80oz",
         precio: 4900,
         rubro: "herramientas",
@@ -324,6 +392,8 @@ export const productos = [
 
     {
         id: 47,
+        esta: "si",
+
         nombre: "Griferia ss 3007",
         precio: 93000,
         rubro: "griferia",
@@ -344,12 +414,15 @@ export const productos = [
     },
     {
         id: 50,
+        esta: "si",
         nombre: "Timbre con enchufe",
         precio: 8200,
         rubro: "hogar-deco",
         img: "imgs/hogar-deco/timbre-con-enchufe.jpeg"
     },
     {
+        esta: "si",
+
         id: 50,
         nombre: "Timbre pila y pila",
         precio: 6300,
@@ -369,6 +442,8 @@ export const productos = [
         id: 54,
         nombre: "Reflector 10w nivhus",
         precio: 4500,
+        esta: "si",
+
         rubro: "iluminacion",
         img: "imgs/iluminacion/reflector-10w-nivhus.jpeg"
     },
@@ -376,6 +451,8 @@ export const productos = [
         id: 55,
         nombre: "Reflector 30w nivhus",
         precio: 7800,
+        esta: "si",
+
         rubro: "iluminacion",
         img: "imgs/iluminacion/reflector-30w-nivhus.jpeg"
     },
@@ -383,12 +460,16 @@ export const productos = [
         id: 56,
         nombre: "Ducha de mano rory",
         precio: 6300,
+        esta: "si",
+
         rubro: "griferia",
         img: "imgs/griferia/ducha-de-mano-rory.jpeg"
     },
     {
         id: 57,
         nombre: "Griferia f319",
+        esta: "si",
+
         precio: 8300,
         rubro: "griferia",
         img: "imgs/griferia/griferia-f319.jpeg"
@@ -398,11 +479,15 @@ export const productos = [
         nombre: "Griferia ss 3009",
         precio: 30000,
         rubro: "griferia",
+        esta: "si",
+
         img: "imgs/griferia/griferia-ss-3009.jpeg"
     },
 
     {
         id: 59,
+        esta: "si",
+
         nombre: "Pico j acero inoxidable 900298",
         precio: 4000,
         rubro: "griferia",
@@ -413,6 +498,8 @@ export const productos = [
         id: 60,
         nombre: "Chaleco verde y naranja",
         precio: 2000,
+        esta: "si",
+
         rubro: "bici-y-moto",
         img: "imgs/bici-y-moto/chaleco-verde-y-naranja.jpeg"
     },
@@ -421,6 +508,8 @@ export const productos = [
         nombre: "Parche kit x600",
         precio: 900,
         rubro: "bici-y-moto",
+        esta: "si",
+
         img: "imgs/bici-y-moto/parche-kit-x600.jpeg"
     },
     {
@@ -428,12 +517,16 @@ export const productos = [
         nombre: "Parche numero 2",
         precio: 1800,
         rubro: "bici-y-moto",
+        esta: "si",
+
         img: "imgs/bici-y-moto/parche-numero-2.jpeg"
     },
     {
         id: 63,
         nombre: "Parche numero 3",
         precio: 2400,
+        esta: "si",
+
         rubro: "bici-y-moto",
         img: "imgs/bici-y-moto/parche-numero-3.jpeg"
     },
@@ -442,10 +535,14 @@ export const productos = [
         nombre: "Parche numero 4",
         precio: 3000,
         rubro: "bici-y-moto",
+        esta: "si",
+
         img: "imgs/bici-y-moto/parche-numero-4.jpeg"
     },
     {
         id: 65,
+        esta: "si",
+
         nombre: "Parche solucion caja",
         precio: 7200,
         rubro: "bici-y-moto",
@@ -461,12 +558,16 @@ export const productos = [
     {
         id: 67,
         precio: 4000,
+        esta: "si",
+
         nombre: "Calculadora científica KK-82MS",
         rubro: "hogar-deco",
         img: "imgs/hogar-deco/calculadora-cientifica-kk-82ms.jpeg"
     },
     {
         id: 68,
+        esta: "si",
+
         precio: 28000,
         nombre: "Cámara Masuya Domo",
         rubro: "hogar-deco",
@@ -474,6 +575,8 @@ export const productos = [
     },
     {
         id: 69,
+        esta: "si",
+
         precio: 3600,
         nombre: "Control de aire acondicionado",
         rubro: "hogar-deco",
@@ -482,6 +585,8 @@ export const productos = [
     {
         id: 70,
         precio: 3300,
+        esta: "si",
+
         nombre: "Control de TV universal",
         rubro: "hogar-deco",
         img: "imgs/hogar-deco/control-de-tc-uni.jpeg"
@@ -489,6 +594,7 @@ export const productos = [
     {
         id: 71,
         precio: 20000,
+        esta: "si",
 
         nombre: "Extractor de baño",
         rubro: "hogar-deco",
@@ -496,6 +602,8 @@ export const productos = [
     },
     {
         id: 72,
+        esta: "si",
+
         precio: 30000,
         nombre: "Linterna con power bank",
         rubro: "iluminacion",
@@ -504,18 +612,24 @@ export const productos = [
     {
         id: 73,
         precio: 4500,
+        esta: "si",
+
         nombre: "Lampara led 40w",
         rubro: "iluminacion",
         img: "imgs/iluminacion/lampara-led-40w.jpeg"
     },
     {
         id: 74,
+        esta: "si",
+
         precio: 7000,
         nombre: "Lampara led 50w",
         rubro: "iluminacion",
         img: "imgs/iluminacion/lampara-led-50w.jpeg"
     },
     {
+        esta: "si",
+
         id: 75,
         precio: 18200,
         nombre: "Lampara led 75w",
@@ -524,6 +638,8 @@ export const productos = [
     },
     {
         id: 76,
+        esta: "si",
+
         precio: 22000,
         nombre: "Lampara led 100w",
         rubro: "iluminacion",
@@ -532,6 +648,8 @@ export const productos = [
     {
         id: 77,
         precio: 1200,
+        esta: "si",
+
         nombre: "Linterna led color",
         rubro: "iluminacion",
         img: "imgs/iluminacion/linterna-9led-color.jpeg"
@@ -546,6 +664,8 @@ export const productos = [
     {
         id: 79,
         precio: 1350,
+        esta: "si",
+
         nombre: "Kit parche TR07",
         rubro: "bici-y-moto",
         img: "imgs/bici-y-moto/kit-parche-tr07.jpeg"
@@ -560,6 +680,8 @@ export const productos = [
     {
         id: 81,
         precio: 3200,
+        esta: "si",
+
         nombre: "Parche numero 6",
         rubro: "bici-y-moto",
         img: "imgs/bici-y-moto/parche-numero-6.jpeg"
@@ -567,6 +689,8 @@ export const productos = [
     {
         id: 82,
         precio: 3600,
+        esta: "si",
+
         nombre: "Parche numero 8",
         rubro: "bici-y-moto",
         img: "imgs/bici-y-moto/parche-numero-8.jpeg"
@@ -577,6 +701,7 @@ export const productos = [
 
     {
         id: 83,
+        esta: "si",
 
         precio: 42000,
         nombre: "Amoladora 750W Bisso",
@@ -586,6 +711,8 @@ export const productos = [
     {
         id: 84,
 
+        esta: "si",
+
         precio: 90000,
         nombre: "Amoladora inalámbrica azul SV2025",
         rubro: "herramientas",
@@ -593,6 +720,7 @@ export const productos = [
     },
     {
         id: 85,
+        esta: "si",
 
         precio: 6000,
         nombre: "Balanza gancho acero 100kg",
@@ -603,12 +731,15 @@ export const productos = [
         id: 86,
 
         precio: 5000,
-        nombre: "Balanza gancho",
+        esta: "si",
+
+        nombre: "Balanza gancho acero 50kg",
         rubro: "herramientas",
         img: "imgs/herramientas/balanza-gancho.jpg"
     },
     {
         id: 87,
+        esta: "si",
 
         precio: 1300,
         nombre: "Bullidor calentador de agua",
@@ -619,6 +750,8 @@ export const productos = [
         id: 88,
 
         precio: 66000,
+        esta: "si",
+
         nombre: "Caladora para cortar madera",
         rubro: "herramientas",
         img: "imgs/herramientas/caladora-para-cortar-madera.jpeg"
@@ -628,6 +761,8 @@ export const productos = [
 
         precio: 1200,
         nombre: "Candado dorado 38mm",
+        esta: "si",
+
         rubro: "herramientas",
         img: "imgs/herramientas/candado dorado 38mm.jpeg"
     },
@@ -636,6 +771,8 @@ export const productos = [
 
         precio: 800,
         nombre: "Candado dorado 20mm",
+        esta: "si",
+
         rubro: "herramientas",
         img: "imgs/herramientas/candado-dorado-20mm.jpeg"
     },
@@ -644,6 +781,8 @@ export const productos = [
 
         precio: 900,
         nombre: "Candado dorado 25mm",
+        esta: "si",
+
         rubro: "herramientas",
         img: "imgs/herramientas/candado-dorado-25mm.jpeg"
     },
@@ -651,6 +790,8 @@ export const productos = [
         id: 92,
 
         precio: 1100,
+        esta: "si",
+
         nombre: "Candado dorado 32mm",
         rubro: "herramientas",
         img: "imgs/herramientas/candado-dorado-32mm.jpeg"
@@ -658,6 +799,7 @@ export const productos = [
 
     {
         id: 94,
+        esta: "si",
 
         precio: 1800,
         nombre: "Cinta 3m transparente",
@@ -674,7 +816,7 @@ export const productos = [
     },
     {
         id: 96,
-
+        esta: "si",
         precio: 2100,
         nombre: "Cinta 5m transparente",
         rubro: "herramientas",
@@ -694,10 +836,13 @@ export const productos = [
         precio: 3500,
         nombre: "Cinta 7.5m Giantop",
         rubro: "herramientas",
+        esta: "si",
+
         img: "imgs/herramientas/cinta-7.5-giantop.jpeg"
     },
     {
         id: 99,
+        esta: "si",
 
         precio: 1300,
         nombre: "Cinta teflón 10mt",
@@ -707,6 +852,7 @@ export const productos = [
     {
         id: 100,
         precio: 2400,
+        esta: "si",
 
         nombre: "Destornillador para celular 31 en 1",
         rubro: "herramientas",
@@ -715,14 +861,15 @@ export const productos = [
     {
         id: 101,
         precio: 16500,
-
-        nombre: "Destornillador eléctrico 8pcs Raus",
+        esta: "si",
+        nombre: "Destornillador electricidad 8pcs Raus",
         rubro: "herramientas",
         img: "imgs/herramientas/desto-electr-8pc-raus.jpeg"
     },
     {
         id: 102,
         precio: 2600,
+        esta: "si",
 
         nombre: "Destornillador 6pcs taxi blister",
         rubro: "herramientas",
@@ -734,6 +881,7 @@ export const productos = [
     {
         id: 106,
         precio: 6300,
+        esta: "si",
 
         nombre: "Destornillador golpe naranja X6",
         rubro: "herramientas",
@@ -747,6 +895,8 @@ export const productos = [
 
         nombre: "Cuchara albañil 7``",
         rubro: "herramientas",
+        esta: "si",
+
         img: "imgs/herramientas/cuchara-añbañil-7``.jpeg"
     },
 
@@ -762,6 +912,7 @@ export const productos = [
     {
         id: 112,
         precio: 10000,
+        esta: "si",
 
         nombre: "Destornillador x 6pc",
         rubro: "herramientas",
@@ -770,6 +921,7 @@ export const productos = [
     {
         id: 113,
         precio: 2200,
+        esta: "si",
 
         nombre: "Disco corte 4.5 Bisso",
         rubro: "herramientas",
@@ -782,6 +934,10 @@ export const productos = [
 
         nombre: "Disco madera 24 115mm",
         rubro: "herramientas",
+        esta: "si",
+
+        esta: "si",
+
         img: "imgs/herramientas/disco-madera-24-115mm.jpeg"
     },
     {
@@ -795,6 +951,7 @@ export const productos = [
     {
         id: 115,
         precio: 0,
+        esta: "si",
 
         nombre: "Juego gubias 115mm",
         rubro: "herramientas",
@@ -811,7 +968,7 @@ export const productos = [
     {
         id: 117,
         precio: 18000,
-
+        esta: "si",
         nombre: "Llave combinada 8pcs",
         rubro: "herramientas",
         img: "imgs/herramientas/llave-combinada-x8pcs.jpeg"
@@ -819,6 +976,7 @@ export const productos = [
     {
         id: 118,
         precio: 45000,
+        esta: "si",
 
         nombre: "Llave combinada YOFE 14Pcs ",
         rubro: "herramientas",
@@ -828,6 +986,7 @@ export const productos = [
     {
         id: 119,
         precio: 37000,
+        esta: "si",
 
         nombre: "Llave con criquet 7pcs",
         rubro: "herramientas",
@@ -836,6 +995,7 @@ export const productos = [
     {
         id: 120,
         precio: 47000,
+        esta: "si",
 
         nombre: "Llave con criquet 7pcs BISSO",
         rubro: "herramientas",
@@ -844,6 +1004,7 @@ export const productos = [
     {
         id: 121,
         precio: 10000,
+        esta: "si",
 
         nombre: "Llave francesa 12`` BISSO",
         rubro: "herramientas",
@@ -852,6 +1013,7 @@ export const productos = [
     {
         id: 122,
         precio: 6500,
+        esta: "si",
 
         nombre: "Llave francesa 6`` BISSO",
         rubro: "herramientas",
@@ -860,6 +1022,7 @@ export const productos = [
     {
         id: 123,
         precio: 7500,
+        esta: "si",
 
         nombre: "Llave francesa 8`` BISSO",
         rubro: "herramientas",
@@ -868,6 +1031,7 @@ export const productos = [
     {
         id: 124,
         precio: 6000,
+        esta: "si",
 
         nombre: "Nivel con iman 50cm plateado",
         rubro: "herramientas",
@@ -925,6 +1089,7 @@ export const productos = [
     {
         id: 130,
         precio: 6300,
+        esta: "si",
 
         nombre: "PICO LORO BISSO",
         rubro: "herramientas",
@@ -981,6 +1146,7 @@ export const productos = [
     {
         id: 137,
         precio: 9000,
+        esta: "si",
 
         nombre: "Pinza porta electrodo",
         rubro: "herramientas",
@@ -997,6 +1163,7 @@ export const productos = [
     {
         id: 139,
         precio: 93000,
+        esta: "si",
 
         nombre: "Pistola de pintar",
         rubro: "herramientas",
@@ -1005,6 +1172,7 @@ export const productos = [
     {
         id: 140,
         precio: 3600,
+        esta: "si",
 
         nombre: "Precinto 25cm",
         rubro: "herramientas",
@@ -1013,6 +1181,7 @@ export const productos = [
     {
         id: 141,
         precio: 4000,
+        esta: "si",
 
         nombre: "Precinto 30cm",
         rubro: "herramientas",
@@ -1021,6 +1190,7 @@ export const productos = [
     {
         id: 142,
         precio: 4800,
+        esta: "si",
 
         nombre: "Precinto 40cm",
         rubro: "herramientas",
@@ -1029,6 +1199,7 @@ export const productos = [
     {
         id: 143,
         precio: 93000,
+        esta: "si",
 
         nombre: "Pulidor electrico",
         rubro: "herramientas",
@@ -1053,7 +1224,7 @@ export const productos = [
     {
         id: 146,
         precio: 6300,
-
+        esta: "si",
         nombre: "Serrucho de madera 18``",
         rubro: "herramientas",
         img: "imgs/herramientas/serrucho-de-madera-198`.jpeg"
@@ -1061,6 +1232,7 @@ export const productos = [
     {
         id: 147,
         precio: 2500,
+        esta: "si",
 
         nombre: "Soldador mango madera 40w",
         rubro: "herramientas",
@@ -1069,6 +1241,7 @@ export const productos = [
     {
         id: 148,
         precio: 3000,
+        esta: "si",
 
         nombre: "Soldador mango plastico 42w",
         rubro: "herramientas",
@@ -1077,6 +1250,7 @@ export const productos = [
     {
         id: 149,
         precio: 83000,
+        esta: "si",
 
         nombre: "Taladro 21v 13mm",
         rubro: "herramientas",
@@ -1085,6 +1259,7 @@ export const productos = [
     {
         id: 151,
         precio: 80000,
+        esta: "si",
 
         nombre: "Taladro electrico BISSO 18V BLA00101",
         rubro: "herramientas",
@@ -1094,6 +1269,7 @@ export const productos = [
     {
         id: 153,
         precio: 83000,
+        esta: "si",
 
         nombre: "Taladro electrico BISSO 21V BLA01101",
         rubro: "herramientas",
@@ -1102,6 +1278,7 @@ export const productos = [
     {
         id: 154,
         precio: 40000,
+        esta: "si",
 
         nombre: "Taladro electrico BISSO 3.6V ",
         rubro: "herramientas",
@@ -1110,6 +1287,7 @@ export const productos = [
     {
         id: 155,
         precio: 145000,
+        esta: "si",
 
         nombre: "Taladro impacto novatix ",
         rubro: "herramientas",
@@ -1118,6 +1296,7 @@ export const productos = [
     {
         id: 156,
         precio: 55000,
+        esta: "si",
 
         nombre: "Taladro MAXIROQ con dos baterias ",
         rubro: "herramientas",
@@ -1126,6 +1305,7 @@ export const productos = [
     {
         id: 157,
         precio: 100000,
+        esta: "si",
 
         nombre: "Taladro percutor RT05",
         rubro: "herramientas",
@@ -1134,6 +1314,7 @@ export const productos = [
     {
         id: 158,
         precio: 112000,
+        esta: "si",
 
         nombre: "Taladro percutor SD2010",
         rubro: "herramientas",
@@ -1142,6 +1323,7 @@ export const productos = [
     {
         id: 159,
         precio: 145000,
+        esta: "si",
 
         nombre: "Taladro y amoladora electrico ",
         rubro: "herramientas",
@@ -1150,6 +1332,7 @@ export const productos = [
     {
         id: 160,
         precio: 58000,
+        esta: "si",
 
         nombre: "Tubo 108pc BISSO",
         rubro: "herramientas",
@@ -1158,6 +1341,7 @@ export const productos = [
     {
         id: 161,
         precio: 60000,
+        esta: "si",
 
         nombre: "Tubo 108pc TOP HELPER",
         rubro: "herramientas",
@@ -1166,6 +1350,7 @@ export const productos = [
     {
         id: 162,
         precio: 112000,
+        esta: "si",
 
         nombre: "Tubo 121PC",
         rubro: "herramientas",
@@ -1174,6 +1359,7 @@ export const productos = [
     {
         id: 163,
         precio: 127000,
+        esta: "si",
 
         nombre: "Tubo 21PC caja metal",
         rubro: "herramientas",
@@ -1182,6 +1368,7 @@ export const productos = [
     {
         id: 164,
         precio: 63000,
+        esta: "si",
 
         nombre: "Tubo caja 94pcs",
         rubro: "herramientas",
@@ -1240,6 +1427,7 @@ export const productos = [
     {
         id: 173,
         precio: 5200,
+        esta: "si",
 
         nombre: "Nivel aluminio 30cm",
         rubro: "herramientas",
@@ -1248,6 +1436,7 @@ export const productos = [
     {
         id: 174,
         precio: 6000,
+        esta: "si",
 
         nombre: "Nivel aluminio 40cm",
         rubro: "herramientas",
@@ -1256,6 +1445,7 @@ export const productos = [
     {
         id: 175,
         precio: 6500,
+        esta: "si",
 
         nombre: "Nivel aluminio 50cm",
         rubro: "herramientas",
@@ -1264,6 +1454,7 @@ export const productos = [
     {
         id: 176,
         precio: 6850,
+        esta: "si",
 
         nombre: "Nivel aluminio 60cm",
         rubro: "herramientas",
@@ -1272,6 +1463,7 @@ export const productos = [
     {
         id: 177,
         precio: 9000,
+        esta: "si",
 
         nombre: "Nivel aluminio 100cm",
         rubro: "herramientas",
@@ -1281,6 +1473,7 @@ export const productos = [
     {
         id: 178,
         precio: 1800,
+        esta: "si",
 
         nombre: "Cinta 5mt Lian jin",
         rubro: "herramientas",
@@ -1292,6 +1485,8 @@ export const productos = [
         precio: 5000,
 
         nombre: "Disco 180mm Láser",
+        esta: "si",
+
         rubro: "herramientas",
         img: "imgs/herramientas/disco-180mm-lases.jpeg"
     },
@@ -1306,6 +1501,7 @@ export const productos = [
     {
         id: 178,
         precio: 25000,
+        esta: "si",
 
         nombre: "Llave combinada 5pc",
         rubro: "herramientas",
@@ -1314,6 +1510,7 @@ export const productos = [
     {
         id: 178,
         precio: 27000,
+        esta: "si",
 
         nombre: "Llave combinada 12pc",
         rubro: "herramientas",
@@ -1322,6 +1519,7 @@ export const productos = [
     {
         id: 178,
         precio: 32000,
+        esta: "si",
 
         nombre: "Llave combinada 14pc",
         rubro: "herramientas",
@@ -1330,6 +1528,7 @@ export const productos = [
     {
         id: 178,
         precio: 20000,
+        esta: "si",
 
         nombre: "Llave combinada x8pc BISSO",
         rubro: "herramientas",
@@ -1338,6 +1537,7 @@ export const productos = [
     {
         id: 178,
         precio: 6500,
+        esta: "si",
 
         nombre: "Llave francesa 10`` negro",
         rubro: "herramientas",
@@ -1346,6 +1546,7 @@ export const productos = [
     {
         id: 178,
         precio: 5800,
+        esta: "si",
 
         nombre: "Llave francesa 8`` negro",
         rubro: "herramientas",
@@ -1354,6 +1555,7 @@ export const productos = [
     {
         id: 178,
         precio: 3800,
+        esta: "si",
 
         nombre: "Llave TORQ chica",
         rubro: "herramientas",
@@ -1362,6 +1564,7 @@ export const productos = [
     {
         id: 178,
         precio: 5100,
+        esta: "si",
 
         nombre: "Llave TORQ mediana",
         rubro: "herramientas",
@@ -1370,6 +1573,7 @@ export const productos = [
     {
         id: 178,
         precio: 5800,
+        esta: "si",
 
         nombre: "Llave TORQ grande",
         rubro: "herramientas",
@@ -1378,6 +1582,7 @@ export const productos = [
     {
         id: 178,
         precio: 45000,
+        esta: "si",
 
         nombre: "Mini amoladora inalambrica",
         rubro: "herramientas",
@@ -1386,6 +1591,7 @@ export const productos = [
     {
         id: 178,
         precio: 45000,
+        esta: "si",
 
         nombre: "Motosierra chica recargable",
         rubro: "herramientas",
@@ -1394,6 +1600,8 @@ export const productos = [
     {
         id: 178,
         precio: 100000,
+        esta: "si",
+
 
         nombre: "Motosierra grande",
         rubro: "herramientas",
@@ -1404,6 +1612,7 @@ export const productos = [
     {
         id: 178,
         precio: 18000,
+        esta: "si",
 
         nombre: "Tubo 53pcs",
         rubro: "herramientas",
@@ -1458,6 +1667,61 @@ export const productos = [
         rubro: "herramientas",
         img: "imgs/herramientas/llave-stillson-10``-bs35.jpeg"
     },
-
+    {
+        id: 178,
+        precio: 5500,
+        esta: "si",
+        nombre: "Arco sierra metal",
+        rubro: "herramientas",
+        img: "imgs/herramientas/arco-sierra-metal.jpeg"
+    },
+    {
+        id: 178,
+        precio: 13000,
+        esta: "si",
+        nombre: "Tubo 46pcs caja roja",
+        rubro: "herramientas",
+        img: "imgs/herramientas/tubo-46pcs-caja-roja.jpeg"
+    },
+    {
+        id: 178,
+        precio: 22000,
+        esta: "si",
+        nombre: "Tubo 46pcs caja negra",
+        rubro: "herramientas",
+        img: "imgs/herramientas/tubo-46pcs-caja-negra.jpeg"
+    },
+    {
+        id: 178,
+        precio: 55000,
+        esta: "si",
+        nombre: "Taladro eléctrico ina 20v mayusa",
+        rubro: "herramientas",
+        img: "imgs/herramientas/taladro-elec-ina-20v-mayusa.jpeg"
+    },
+    {
+        id: 178,
+        precio: 1725,
+        esta: "si",
+        nombre: "Espatula 5`` ",
+        rubro: "herramientas",
+        img: "imgs/herramientas/espatula-5``.jpeg"
+    },
+    {
+        id: 178,
+        precio: 500,
+        esta: "si",
+        nombre: "Busca polo punta cambiar",
+        rubro: "herramientas",
+        img: "imgs/herramientas/busca-polo-punta-cambiar.jpeg"
+    },
+    {
+        id: 178,
+        precio: 30000,
+        esta: "si",
+        nombre: "Pistola de calor",
+        rubro: "herramientas",
+        img: "imgs/herramientas/pistola-de-calor.jpeg"
+    },
 
 ];
