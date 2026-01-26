@@ -102,7 +102,7 @@ const conversor = {
 
 }
 
-const productosBase = productos;
+const productosBase = productos.filter(p => p.esta == "si");
 let productosAMostrar = [...productosBase];
 
 let filtroRubro = "todos";
@@ -228,3 +228,4 @@ window.addEventListener("load", toggleSubir)
 
 aplicarFiltros();
 
+console.log(productosBase.length);
