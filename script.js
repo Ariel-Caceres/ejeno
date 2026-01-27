@@ -160,7 +160,7 @@ function aplicarFiltros() {
     // 🔹 búsqueda
     if (textoBusqueda.trim() !== "") {
         resultado = resultado.filter(p =>
-            p.nombre.toLowerCase().includes(textoBusqueda.toLowerCase())
+            p.nombre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(textoBusqueda.toLowerCase())
         );
     }
 
@@ -203,6 +203,8 @@ input.addEventListener("input", (e) => {
     textoBusqueda = e.target.value;
     aplicarFiltros();
 });
+
+
 
 
 window.volver = () => {
