@@ -1703,7 +1703,7 @@ export const productos = [
         id: 178,
         precio: 1725,
         esta: "si",
-        nombre: "Espatula 5`` ",
+        nombre: "Espátula 5`` BS47 ",
         rubro: "herramientas",
         img: "imgs/herramientas/espatula-5``.jpeg"
     },
